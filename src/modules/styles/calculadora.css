@@ -117,7 +117,17 @@ nav a.active{
     font-weight: 600;
     line-height: 0.1;
 }
-  
 
-
-  
+.binario{
+    width: 35%;
+    height: auto;
+    position: absolute;
+    margin-left: 310px;
+    margin-top: 70px;
+}
+.binario p{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 0.1;
+}
