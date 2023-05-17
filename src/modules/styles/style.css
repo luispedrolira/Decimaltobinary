@@ -40,7 +40,7 @@ nav a.active{
     border-radius: 10px;
 }
 
-.holisputas{
+main{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -114,18 +114,20 @@ nav a.active{
     transform: scale(0.95);
 }
 
-.index_image img{
-    object-fit: cover;
-    object-position: center;
-    border-radius: 10px 15px 15px 50px;
-
-}
 .index_image{
     padding-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.index_image img{
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px 15px 15px 50px;
+
+}
+
 .img2{
     display: flex;
     align-items: center;
