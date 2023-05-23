@@ -19,6 +19,20 @@
             <a data-scroll="contactanos" href="/src/modules/comentarios.html">Contactanos</a>
         </nav>
     </header>
+    
+    <main>
+        <label for="decimal">Número decimal:</label>
+        <input type="number" id="decimal">
+        <label for="bytes">Bytes:</label>
+        <select id="bytes">
+            <option value="1">1 byte</option>
+            <option value="2">2 bytes</option>
+            <option value="4">4 bytes</option>
+            <option value="8">8 bytes</option>
+        </select>
+        <button onclick="convertir()">Convertir</button>
+        <p id="resultado"></p>
+    </main>
 
 
 
