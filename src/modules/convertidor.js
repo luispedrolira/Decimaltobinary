@@ -3,7 +3,6 @@ function convertir() {
     var bytes = parseInt(document.getElementById('bytes').value);
     
     var binario = decimalToBinary(decimal, bytes);
-    
     document.getElementById('resultado').value = binario;
   }
   
